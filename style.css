@@ -1,0 +1,63 @@
+
+#weather-container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .title {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .weather-img-novosibirsk {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+  .weather-info {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .info-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .info-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .city {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .coordinates,
+  .clouds,
+  .temperature,
+  .humidity,
+  .pressure,
+  .wind {
+    color: #555555;
+  }
+  
